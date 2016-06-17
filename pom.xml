@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cloudera</groupId>
+  <artifactId>CMAPIExample</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>CMAPIExample</name>
+  <description>CMAPIExample</description>
+  <repositories>
+    <repository>
+      <id>cdh.repo</id>
+      <url>https://repository.cloudera.comgroups/cloudera-repos</url>
+      <name>Cloudera Repository</name>
+    </repository>
+  </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>com.cloudera.api</groupId>
+      <artifactId>cloudera-manager-api</artifactId>
+      <version>5.7.0</version>
+    </dependency>
+  </dependencies>
+</project>
